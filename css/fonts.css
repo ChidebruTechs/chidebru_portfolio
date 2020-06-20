@@ -1,0 +1,23 @@
+
+
+/* @font-face */ 
+
+@font-face{
+    font-family: "Roboto";
+    src: '../fonts/Roboto/Roboto-Regular.ttf';
+}
+
+@font-face{
+    font-family: "Philosopher";
+    src: '../fonts/Philosopher/Philosopher-Regular.ttf';
+}
+
+@font-face{
+    font-family: "Marck";
+    src: '../fonts/Marck/MarckScript-Regular.ttf';
+}
+
+@font-face{
+    font-family: "Lora";
+    src: '../fonts/Lora/Lora-Regular.ttf';
+}
