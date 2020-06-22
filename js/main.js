@@ -43,6 +43,9 @@ $(document).ready(function () {
     })
 
     // AOS Instance
-    AOS.init();
+    AOS.init({
+        delay: 200,
+        duration:1500
+    });
 
 });

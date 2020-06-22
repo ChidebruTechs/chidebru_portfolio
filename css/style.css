@@ -352,41 +352,27 @@ body {
     font-size: large;
 }
 .fa-address-card {
-    font-size: 3rem;
     color: rgb(7, 109, 7);
 }
 .fa-mobile-alt {
-    font-size: 3rem;
     color: rgb(15, 15, 15);
 }
 .fa-envelope {
-    font-size: 3rem;
     color: rgb(65, 92, 3);
 }
-.fa-facebook {
-    font-size: 2rem;
-}
 .fa-github {
-    font-size: 2rem;
-    color: rgb(62, 62, 63);
-}
-.fa-twitter {
-    font-size: 2rem;
+    color: rgb(172, 172, 173);
 }
 .contact h5 {
     color:rgb(153, 131, 4);
 }
 .fa-skype{
-    font-size: 3rem;
     color: rgb(4, 117, 161);
 }
 .fa-hands-helping{
-    font-size: 3rem;
     color: rgba(154, 6, 252, 0.767);
 }
-.fa-linkedin {
-    font-size: 2rem;
-}
+
 .contact p {
     color: rgb(4, 5, 4);
     font-size: 1.4rem;
@@ -456,16 +442,19 @@ footer.footer-area .social a > i{
 footer.footer-area .social a:hover > i{
     color: rgb(171, 212, 130);
 }
-footer.footer .move-up{
-    position: absolute;
-    right: 6%;
-    top: 50%;
+
+footer .move-up{
+
+    margin: 0 1rem 0.6rem 90%;
+     ;
 }
-footer.footer .move-up span{
-    color: var(--midnight);
+
+footer .move-up span{
+    color: cyan;
 }
-footer.footer .move-up span:hover{
-    color: var(--white);
+
+footer .move-up span:hover{
+    color: rgb(197, 73, 181);
     cursor: pointer;
 }
                     /*=======================  End Footer Area =================== */ 

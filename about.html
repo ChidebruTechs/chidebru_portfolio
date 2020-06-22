@@ -18,6 +18,16 @@
     <link rel="stylesheet" href="./css/style.css">
     <!--  Responsive css file  -->
     <link rel="stylesheet" href="./css/responsive.css">
+ <!-- Font Awesome Icons -->
+ <link rel="stylesheet" href="./css/all.css">
+
+
+ <!-- --------- Owl-Carousel ------------------->
+ <link rel="stylesheet" href="./css/owl.carousel.min.css">
+ <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+ <!-- ------------ AOS Library ------------------------- -->
+ <link rel="stylesheet" href="./css/aos.css">
 
 </head>
     
@@ -54,8 +64,8 @@
     <!--  ================== End Header Area ======================== -->
 <main class="site-main wrapper3 ">
     <!--  ======================= About Area =======================  -->
-    <div class=" vision text-center "  data-aos-easing="ease-in-out">
-        <h4 class="display-4"> 
+    <div class=" vision text-center "  >
+        <h4 class="display-4" data-aos="flip-down" data-aos-delay="200"> 
             <span>V</span>
             <span>i</span>
             <span>s</span>
@@ -63,10 +73,11 @@
             <span>o</span> 
             <span>n</span>
         </h4>
-            <p>To be an Evolutionary Software Engineering Guru in the Industry .  </p>
+            <p data-aos="slide-left" data-aos-delay="400">To be an Evolutionary Software Engineering Guru in the Industry .  </p>
     </div>
     <div class=" text-center ">
-        <div  class="chidebru" data-aos-easing="ease-in-out">
+        <div  class="chidebru" data-aos="flip-left" data-aos-delay="600"
+        data-aos-duration="2000">
             <h2 class=" display-5">  About Chidebru Techs</h2>
                 <p>
                 This website have been  designed, developed, managed and maintained by Chimoyi Deusdarius Brunoh as a porfolio site. It's out of the first letters of the names that brings about <span style=" color: rgb(82, 167, 4);
@@ -78,10 +89,10 @@
         </div>
         
         <div class="mision text-center">
-            <h5>Mission</h5>
-            <p>Providing an effectiave and efficient Software solutions to the challenges facing humanity and helping raise as many tech survy Africans. </p>
+            <h5 data-aos="slide-up" >Mission</h5>
+            <p data-aos="slide-down"  data-aos-duration="1000" >Providing an effectiave and efficient Software solutions to the challenges facing humanity and helping raise as many tech survy Africans. </p>
     </div>
-            <div class="experience-area ">
+            <div class="experience-area" data-aos="zoom-in" >
                 <div class="d-flex years-area">
                     <h2 class="p-3 years">3</h2>
                     <h2>
@@ -92,7 +103,7 @@
                 </div>
                 <div class="  call-area" >
                     <div class="call-now">
-                        <i class="fas fa-hands-helping"></i>
+                        <i class="fas fa-hands-helping fa-2x"></i>
                         <a href="contact.html" class=" font-roboto">Contact</a>
                     </div>
                 </div>
@@ -100,10 +111,10 @@
   
 </div>
     <div class="skills col-lg-12 text-center">
-        <h4 class="display-4">Skills-Set </h4>
-        <p>Chidebru Techs is conversant with the following technologies.</p>
+        <h4 class="display-4" data-aos="flip-right" >Skills-Set </h4>
+        <p data-aos="flip-left" data-aos-delay="500">Chidebru Techs is conversant with the following technologies.</p>
     </div>
-    <div class="skill text-center">
+    <div class="skill text-center" data-aos="zoom-out-up"  data-aos-delay="800" >
         <div class="set">
             <img title="Structure Elements" src="./images/logos/html5.png" alt="html logo" height="50px">
         </div>
@@ -250,9 +261,9 @@
             </div>
             <div class="social text-center">
                 <h5 class="text-uppercase">Follow Us</h5>
-                <a href="https://web.facebook.com/Chidebru-Techs-107309294322378"><i class="fab fa-facebook"></i></a>
-                <a href="https://github.com/ChidebruTechs"><i class="fab fa-github"></i></a>
-                <a href="https://twitter.com/ChidebruTechs"><i class="fab fa-twitter"></i></a>
+                <a href="https://web.facebook.com/Chidebru-Techs-107309294322378"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://github.com/ChidebruTechs"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://twitter.com/ChidebruTechs"><i class="fab fa-twitter fa-2x"></i></a>
             </div>
         </div>  
     </div>
@@ -263,9 +274,9 @@
                 <a href="Index.html"><span style="color: var(--primary-color);">Chidebru Techs</span></a>
             </p>
         </div>
-        <!--<div class="move-up">
+        <div class="move-up">
             <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
-        </div>-->
+        </div>
 </footer>
     <!--  ================ End footer  Area ========================= -->
         <!-- JS, Popper.js, and jQuery -->
@@ -276,14 +287,17 @@
         <script src="https://kit.fontawesome.com/e2eb95f490.js" crossorigin="anonymous"></script> 
         <!-- ------------ AOS js Library  ------------------------- -->
      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-     <!--INITIALIZE AOS-->
-     <script>
-        AOS.init({
-         offset: 200, 
-         delay: 200,
-         duration: 200
-       });
-     </script>
+      <!-- Jquery Library file -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!--Custom js-->
+    <script src="/js/main.js"></script>
      
 </body>
 
