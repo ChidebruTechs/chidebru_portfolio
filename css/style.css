@@ -130,6 +130,9 @@ body {
         .intro p{
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
         }
+        .about {
+            color: black;
+        }
          /* start services section  */
 .service-link {
     margin:8px auto;
