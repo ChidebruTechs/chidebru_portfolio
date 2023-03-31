@@ -1,6 +1,2 @@
 # Local Netlify folder
 .netlify
-.firebaserc
-firebase.json
-firebase-debug.log
-.github/workflows
