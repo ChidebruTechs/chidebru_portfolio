@@ -56,13 +56,7 @@ body {
 
         /* start navigation */ 
 
-.header_area .main-menu .navbar .navbar-brand{
-    padding: 0 1rem 0 3rem;
-}
-.header_area .main-menu .navbar{
-    padding: .7rem  ;
-    background-color: rgba(24, 24, 24, 0.89);
-}
+
 .header_area .main-menu .nav-item .nav-link{
     font: normal 500 18px/4px var(--philo);
     padding: .7rem;
@@ -75,6 +69,9 @@ body {
 }
 .header_area .main-menu .navbar-nav a:active{
     color: rgb(7, 7, 7);
+}
+.navbar-brand img{
+    height: 120px;
 }
 
 /* end navigation */ 
